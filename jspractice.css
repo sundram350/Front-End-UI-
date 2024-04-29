@@ -1,0 +1,213 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} /* main- box*/
+
+#main {
+  width: 100%;
+  height: 100vh;
+  padding: 1.5rem 8rem;
+  background-image: url("./new/Images/16.jpg");
+  background-size: cover;
+}
+/* Navigation bar*/
+.nav {
+  width: 100%;
+  height: 10%;
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  color: aliceblue;
+}
+.nav-2 {
+  display: flex;
+  gap: 20px;
+}
+.nav-3 {
+  display: flex;
+}
+.nav-3 button {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+} /* End navigation Box */
+/* Search box */
+.txt {
+  width: 100%;
+  height: 80%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.inp {
+  width: 100rem;
+  border-radius: 5rem;
+  text-align: center;
+}
+.btn {
+  width: 40rem;
+  border-radius: 5rem;
+  text-align: center;
+}
+.s-bar {
+  width: 50%;
+  height: 7vh;
+  display: flex;
+  padding-left: 10px;
+}
+/* End Search box */
+.box-1 {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("./new/Images/9.jpg");
+
+  padding: 1.5rem 8rem;
+}
+
+/* Hero Section */
+.hero-sec {
+  padding: 1rem 0rem;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  gap: 10px;
+  box-sizing: 4px 4px 14px rgba(0, 0, 0, 7);
+}
+
+img {
+  background-size: cover;
+  width: 40%;
+  height: 40vh;
+}
+
+.img5 {
+  display: none;
+}
+.img4 {
+  display: none;
+}
+
+.feature {
+  background-color: #f2f4f6;
+  padding: 2rem 5rem;
+  border: 2px red solid;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  gap: 20px;
+}
+.col1 {
+  padding: 2rem;
+  width: 400px;
+
+  background-color: white;
+}
+.col2 {
+  padding: 2rem;
+  width: 400px;
+  background-color: white;
+}
+.col3 {
+  padding: 2rem;
+  width: 400px;
+  background-color: white;
+}
+.col4 {
+  padding: 2rem;
+  width: 400px;
+  background-color: white;
+}
+.review {
+  width: 100%;
+  height: 80vh;
+  border: 2px solid red;
+  background-color: #fff;
+  padding: 5rem;
+}
+.review-nav {
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.review-nav h1 {
+  position: relative;
+  left: 10px;
+}
+.btn {
+  display: flex;
+  position: absolute;
+  right: -500px;
+  gap: 10px;
+}
+.review-txt {
+  display: flex;
+  padding-top: 10px;
+  border: 2px solid rebeccapurple;
+}
+
+.checkout-details {
+  width: 100%;
+  height: 100vh;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 3rem;
+}
+.checkout-box {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.left {
+  text-align: left;
+  align-content: center;
+  width: 40%;
+  height: 100vh;
+}
+
+.right {
+  background-color: gainsboro;
+  width: 60%;
+  height: 100vh;
+  position: relative;
+}
+.right-img {
+  position: absolute;
+  left: 0px;
+}
+.right .dot {
+  bottom: 10px;
+}
+.sub-sec {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.box {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #60a1e2;
+}
+.box-txt {
+  margin-left: 20px;
+  width: 200px;
+}
+.box-txt p {
+  margin-top: 10px;
+}
+.box-txt h3 {
+  margin-top: 35px;
+}
